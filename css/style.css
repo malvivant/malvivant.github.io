@@ -1,0 +1,32 @@
+body {
+  font-family: 'Poiret One', cursive;;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.img-logo {
+  margin-top: 20px;
+  width: 241px;
+  height: 161px;
+}
+
+.img-main {
+  margin-top: 100px;
+}
+
+.featured {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.img-responsive {
+  border-radius: 25px;
+}
+
+.img-featured {
+  margin-top: 20px;
+}
