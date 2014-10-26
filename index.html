@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Framework Test page</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='http://fonts.googleapis.com/css?family=Poiret+One&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
@@ -13,13 +13,13 @@
 
 <body>
 
-		<div class="container">
+	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
 			<img class="img-logo img-responsive" src="https://farm4.staticflickr.com/3943/14988115154_2941cc06c1_s.jpg" alt="Logo"></div>
 			<div class="col-md-6 text-right text-uppercase">
 			<h1 class="title">Casu Marzu Industries</h1>
-			<h3>Front-End Ninja</h3>
+			<h3>Front-End Jerk</h3>
 			</div>
 		</div>
 		<div>
@@ -44,18 +44,19 @@
 			</div>
 			
 			<div class="col-md-4">
-			     <img class="img-featured img-responsive" src="http://cdni.wired.co.uk/620x413/a_c/Circuit-board.jpg">
+			     <img class="img-featured img-responsive" src="http://cdni.wired.co.uk/620x413/a_c/Circuit-board.jpg" data-toggle="modal" data-target="#project2">
 		          	<h3>Apps Apps Apps</h3>
 			</div>
 			
 			<div class="col-md-4">
-			     <img class="img-featured img-responsive" src="https://www.swimaudio.com/wp-content/uploads/2013/11/pcb-circuits_00400355.jpg">
+			     <img class="img-featured img-responsive" src="https://www.swimaudio.com/wp-content/uploads/2013/11/pcb-circuits_00400355.jpg" data-toggle="modal" data-target="#project3">
 			          <h3>Time Travel</h3>
 			</div>
 		</div>
 	</div>
 	
 	<!-- Modal -->
+	
 <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -63,7 +64,41 @@
         <h2 class="modal-title text-center" id="myModalLabel1">Code Butchering</h2>
       </div>
       <div class="modal-body">
-        <img class="img-featured img-responsive" src="http://thumbs.dreamstime.com/x/circuit-board-b-w-extreme-macro-3942642.jpg">
+        <img class="img-modal img-responsive center-block" src="http://thumbs.dreamstime.com/x/circuit-board-b-w-extreme-macro-3942642.jpg">
+        <h4>This was my first project in this class. I learned a lot about HTML and CSS.</h4>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title text-center" id="myModalLabel2">Apps Apps Apps</h2>
+      </div>
+      <div class="modal-body">
+        <img class="img-featured img-responsive center-block" src="http://cdni.wired.co.uk/620x413/a_c/Circuit-board.jpg">
+        <h4>This was my first project in this class. I learned a lot about HTML and CSS.</h4>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title text-center" id="myModalLabel3">Time Travel</h2>
+      </div>
+      <div class="modal-body">
+        <img class="img-featured img-responsive center-block" src="https://www.swimaudio.com/wp-content/uploads/2013/11/pcb-circuits_00400355.jpg">
         <h4>This was my first project in this class. I learned a lot about HTML and CSS.</h4>
       </div>
       <div class="modal-footer">
