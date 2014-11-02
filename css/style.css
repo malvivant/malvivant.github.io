@@ -1,18 +1,13 @@
-
-
 body {
   font-family: 'Poiret One', cursive;
 }
 
 @media only screen and (max-width:500px) {
   * {
-      margin-left: auto;
-      margin-right: auto;
+      margin: 0 auto 0 auto;
       text-align: center;
   }
 }
-
-
 
 .title {
   font-size: 60px;
@@ -32,14 +27,14 @@ body {
 
 hr {
   border-top: 4px solid #eee;
-  margin-top: 20px;
-  margin-bottom: 0px;
+  margin-top: 20px 0 0 0;
 }
 
 .img-main {
-  margin-top: 70px;
+  margin: 70px auto 0 auto;
   width: 1140px;
   height: 550px;
+  display: block;
 }
 
 .featured {
@@ -53,12 +48,10 @@ hr {
 }
 
 .img-featured {
-  margin-top: 20px;
+  margin: 20px auto 0 auto;
   width: 400px;
   height: 300px;
   display: block;
-  margin-left: auto;
-  margin-right: auto ;
 }
 
 .img-featured:hover {
@@ -86,14 +79,11 @@ h3 {
 }
 
 .col-md-4 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
     background: white;
     border-radius: 15px;
-    
 }
+
 
 
 
