@@ -2,50 +2,59 @@ body {
   font-family: 'Poiret One', cursive;
 }
 
+
 @media only screen and (max-width:500px) {
+  
   * {
       margin: 0 auto 0 auto;
       text-align: center;
   }
+  
 }
 
+
 .title {
-  font-size: 60px;
-  font-weight: bold;
+  font: bold 60px "Poiret One";
   color: #424242;
 }
 
+
 .img-logo {
-  margin-top: 20px;
+  margin: 20px 0 0 0;
   width: 150px;
   height: 150px;
 }
+
 
 .img-logo:hover {
   opacity: 0.5;
 }
 
+
 hr {
   border-top: 4px solid #eee;
-  margin-top: 20px 0 0 0;
+  margin: 20px 0 20px 0;
 }
 
+
 .img-main {
-  margin: 70px auto 0 auto;
+  margin: 40px auto 0 auto;
   width: 1140px;
   height: 550px;
   display: block;
 }
 
+
 .featured {
-  font-size: 36px;
-  font-weight: bold;
+  font: bold 36px "Poiret One";
   margin-top: 50px;
 }
+
 
 .img-responsive {
   border-radius: 15px;
 }
+
 
 .img-featured {
   margin: 20px auto 0 auto;
@@ -54,13 +63,16 @@ hr {
   display: block;
 }
 
+
 .img-featured:hover {
   opacity: 0.5;
 }
 
+
 .modal-title {
-  font-weight: bold;
+  font: bold 30px "Poiret One";
 }
+
 
 .img-modal {
   margin-top: 20px;
@@ -68,22 +80,25 @@ hr {
   height: 300px;
 }
 
+
 h4 {
-  font-size: 24px;
+  font: 24px "Poiret One";
+}
+
+
+h2 {
+  padding: 0 0 0 1px;
 }
 
 
 h3 {
-  margin-bottom: 50px;
-  font-weight: bold;
+  margin: 20px 0 50px 0;
+  font: bold 30px "Poiret One";
 }
 
+
 .col-md-4 {
-    padding: 20px;
+    padding: 20px 15px 20px 15px;
     background: white;
     border-radius: 15px;
 }
-
-
-
-
