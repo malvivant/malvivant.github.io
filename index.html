@@ -1,113 +1,155 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Framework Test page</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="http://fonts.googleapis.com/css?family=Poiret+One&subset=latin,cyrillic" rel="stylesheet">
-	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+
+    <title>Framework Test page</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href=
+    "http://fonts.googleapis.com/css?family=Poiret+One&subset=latin,cyrillic"
+    rel="stylesheet">
+    <script src="js/jquery-1.11.1.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
 </head>
 
 <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6"><img alt="Logo" class=
+            "img-logo img-responsive" src=
+            "https://farm4.staticflickr.com/3943/14988115154_2941cc06c1_s.jpg"></div>
 
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6">
-			<img class="img-logo img-responsive" src="https://farm4.staticflickr.com/3943/14988115154_2941cc06c1_s.jpg" alt="Logo"></div>
-			<div class="col-md-6 text-right text-uppercase">
-			<h1 class="title">Casu Marzu Industries</h1>
-			<h3>Front-End Jerk</h3>
-			</div>
-		</div>
-		<div class="row">
-	      <div class="col-md-12">
-		      <hr>
-		   </div>
-	</div>
-		
-		<div class="row">
-		  <div class="col-md-12"><img class="img-main img-responsive" src="http://wallpaperest.com/wallpapers/circuits-blue-lights-the-circuit-on_089468.jpg" alt="Blue Circuit Picture"></div>
-		</div>
-		
-		<div class="row">
-		  <div class="col-md-12">
-		  <h2 class="featured">Featured Work</h2>
-		  </div>
-		</div>
-		
-		
-		<div class="row text-center">
-			<div class="col-md-4">
-			     <img class="img-featured img-responsive" src="http://thumbs.dreamstime.com/x/circuit-board-b-w-extreme-macro-3942642.jpg" alt="Grey Circuit Photo" data-toggle="modal" data-target="#project1">
-			          <h3>Code Butchering</h3>
-			</div>
-			
-			<div class="col-md-4">
-			     <img class="img-featured img-responsive" src="http://cdni.wired.co.uk/620x413/a_c/Circuit-board.jpg" alt="Green Circuit Photo" data-toggle="modal" data-target="#project2">
-		          	<h3>Apps Apps Apps</h3>
-			</div>
-			
-			<div class="col-md-4">
-			     <img class="img-featured img-responsive" src="https://www.swimaudio.com/wp-content/uploads/2013/11/pcb-circuits_00400355.jpg" alt="Orange Circuit Photo" data-toggle="modal" data-target="#project3">
-			          <h3>Time Travel</h3>
-			</div>
-		</div>
-	</div>
-	
-	<!-- Modal -->
-	
-<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h2 class="modal-title text-center" id="myModalLabel1">Code Butchering</h2>
-      </div>
-      <div class="modal-body">
-        <img class="img-modal img-responsive center-block" src="http://thumbs.dreamstime.com/x/circuit-board-b-w-extreme-macro-3942642.jpg" alt="Grey Circuit Photo">
-        <h4>Looking for mediocre design? For only $20 per line of code, I can make your site look like Geocities from 1999. Cash only!</h4>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+            <div class="col-md-6 text-right text-uppercase">
+                <h1 class="title">Casu Marzu Industries</h1>
 
-<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h2 class="modal-title text-center" id="myModalLabel2">Apps Apps Apps</h2>
-      </div>
-      <div class="modal-body">
-        <img class="img-featured img-responsive center-block" src="http://cdni.wired.co.uk/620x413/a_c/Circuit-board.jpg" alt="Green Circuit Photo">
-        <h4>Here at CMI we feel that Apps are a passing fad, but if that's what you want, then we'll design it. Cash Only! </h4>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+                <h3>Front-End Jerk</h3>
+            </div>
+        </div>
 
-<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h2 class="modal-title text-center" id="myModalLabel3">Time Travel</h2>
-      </div>
-      <div class="modal-body">
-        <img class="img-featured img-responsive center-block" src="https://www.swimaudio.com/wp-content/uploads/2013/11/pcb-circuits_00400355.jpg" alt="Orange Circuit Photo">
-        <h4>Time Travel is impossible. Back to The Future was a stupid lie. Give up on it already. Cash Only!</h4>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12"><img alt="Blue Circuit Picture" class=
+            "img-main img-responsive" src=
+            "http://wallpaperest.com/wallpapers/circuits-blue-lights-the-circuit-on_089468.jpg"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="featured">Featured Work</h2>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img alt="Grey Circuit Photo" class=
+                "img-featured img-responsive" data-target="#project1"
+                data-toggle="modal" src=
+                "http://thumbs.dreamstime.com/x/circuit-board-b-w-extreme-macro-3942642.jpg">
+
+                <h3>Code Butchering</h3>
+            </div>
+
+            <div class="col-md-4">
+                <img alt="Green Circuit Photo" class=
+                "img-featured img-responsive" data-target="#project2"
+                data-toggle="modal" src=
+                "http://cdni.wired.co.uk/620x413/a_c/Circuit-board.jpg">
+
+                <h3>Apps Apps Apps</h3>
+            </div>
+
+            <div class="col-md-4">
+                <img alt="Orange Circuit Photo" class=
+                "img-featured img-responsive" data-target="#project3"
+                data-toggle="modal" src=
+                "https://www.swimaudio.com/wp-content/uploads/2013/11/pcb-circuits_00400355.jpg">
+
+                <h3>Time Travel</h3>
+            </div>
+        </div>
+    </div><!-- Modal -->
+
+    <div class="modal fade" id="project1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title text-center" id="myModalLabel1">Code
+                    Butchering</h2>
+                </div>
+
+                <div class="modal-body">
+                    <a href="http://www.theguardian.com" target="_blank"><img alt="Grey Circuit Photo" class=
+                    "img-featured img-responsive center-block" src=
+                    "http://thumbs.dreamstime.com/x/circuit-board-b-w-extreme-macro-3942642.jpg"></a>
+
+                    <h4>Looking for mediocre design? For only $20 per line of
+                    code, I can make your site look like Geocities from 1999.
+                    Cash only!</h4>
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal" type=
+                    "button">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
+
+    <div class="modal fade" id="project2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title text-center" id="myModalLabel2">Apps
+                    Apps Apps</h2>
+                </div>
+
+                <div class="modal-body">
+                    <a href="http://www.vesti.ru" target="_blank"><img alt="Green Circuit Photo" class=
+                    "img-featured img-responsive center-block" src=
+                    "http://cdni.wired.co.uk/620x413/a_c/Circuit-board.jpg"></a>
+
+                    <h4>Here at CMI we feel that Apps are a passing fad, but if
+                    that's what you want, then we'll design it. Cash Only!</h4>
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal" type=
+                    "button">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title text-center" id="myModalLabel3">Time
+                    Travel</h2>
+                </div>
+
+                <div class="modal-body">
+                    <a href="http://www.nytimes.com" target="_blank"><img alt="Orange Circuit Photo" class=
+                    "img-featured img-responsive center-block" src=
+                    "https://www.swimaudio.com/wp-content/uploads/2013/11/pcb-circuits_00400355.jpg"></a>
+
+                    <h4>Time Travel is impossible. Back to The Future was a
+                    stupid lie. Give up on it already. Cash Only!</h4>
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal" type=
+                    "button">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
