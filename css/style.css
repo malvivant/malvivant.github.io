@@ -44,6 +44,11 @@ hr {
   display: block;
 }
 
+.img-main:hover {
+  opacity: 0.5;
+}
+
+
 
 .featured {
   font: bold 36px "Poiret One";
