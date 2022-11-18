@@ -14,6 +14,7 @@ body {
 
 
 .title {
+  font-family: 'Poiret One', Helvetica, cursive;
   font: bold 60px "Poiret One";
   color: #424242;
 }
@@ -51,6 +52,7 @@ hr {
 
 
 .featured {
+  font-family: 'Poiret One', Helvetica, cursive;
   font: bold 36px "Poiret One";
   margin-top: 50px;
 }
@@ -75,6 +77,7 @@ hr {
 
 
 .modal-title {
+  font-family: 'Poiret One', Helvetica, cursive;
   font: bold 30px "Poiret One";
 }
 
@@ -87,6 +90,7 @@ hr {
 
 
 h4 {
+  font-family: 'Poiret One', Helvetica, cursive;
   font: 24px "Poiret One";
 }
 
