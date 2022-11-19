@@ -13,7 +13,21 @@ body {
 }
 
 
-.title {
+.title1 {
+  font-family: 'Poiret One', Helvetica, cursive;
+  font: bold 100px 
+  color: #424242;
+}
+
+
+.title2 {
+  font-family: 'Poiret One', Helvetica, cursive;
+  font: bold 80px 
+  color: #424242;
+}
+
+
+.title3 {
   font-family: 'Poiret One', Helvetica, cursive;
   font: bold 60px 
   color: #424242;
