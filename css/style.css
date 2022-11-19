@@ -12,25 +12,12 @@ body {
 }
 
 
-.title1 {
+.title {
   font-family: 'Poiret One', Helvetica, cursive;
-  font: bold 100px 
+  font: bold 80px 
   color: #424242;
 }
 
-
-.title2 {
-  font-family: 'Poiret One', Helvetica, cursive;
-  font: bold 20px 
-  color: #424242;
-}
-
-
-.title3 {
-  font-family: 'Poiret One', Helvetica, cursive;
-  font: bold 10px 
-  color: #424242;
-}
 
 
 .img-logo {
